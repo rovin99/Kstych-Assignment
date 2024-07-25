@@ -1,0 +1,21 @@
+{
+    "name": "rovin/recipes",
+    "description": "API for Recipes",
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "php-di/php-di": "^7.0",
+        "illuminate/database": "^11.17",
+        "phpunit/phpunit": "^11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rovin\\Recipes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rovin Singh",
+            "email": "rovin.singh.it@ghrce.raisoni.net"
+        }
+    ]
+}
